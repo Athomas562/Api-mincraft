@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url(./assets/bac1.png);
+	font-family: Rubik;
+}
+
+li:hover {
+	display: flex;
+	text-decoration: underline white 3px;
+}
+
+ul {
+	display: flex;
+	gap: 25px;
+}
+
+li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	gap: 5px;
+}
+
+.mi {
+	color: white;
+}
+
+.text {
+	display: flex;
+	align-items: center;
+	padding: 0px 30px;
+	gap: 15px;
+}
+
+.first {
+	display: flex;
+	gap: 100px;
+}
+
+.ser{
+	padding: 10px 200px;
+}
