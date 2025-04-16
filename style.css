@@ -45,6 +45,79 @@ li {
 	gap: 100px;
 }
 
-.ser{
+.ser {
 	padding: 10px 200px;
 }
+
+.night {
+	background: url(./assets/bac1.png);
+	border: none;
+}
+
+.sky {
+	width: 100%;
+}
+
+.dirt {
+	z-index: 1;
+	position: absolute;
+	right: 10%;
+	top: 20%;
+}
+
+.rectangle1{
+	z-index: 2;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	background-color: white;
+	width: 78%;
+}
+
+.one{
+	font-size: 48px;
+	font-weight: 300;
+	padding: 20px 37px;
+}
+
+.rectangle2{
+	position: relative;
+	left: 3.5%;
+	background-color: #F5C2CD;
+	border-left: solid #BC5C70 5px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	width: 90%;
+}
+
+b{
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.para{
+	padding:0px 12px;
+}
+
+.first-card{
+	display: flex;
+	text-align: start;
+	padding: 25px 40px;
+	font-size: 16px;
+	width: 96%;
+	
+}
+
+.entities{
+	font-size: 22px;
+	font-weight: 500;
+	padding: 10px 40px;
+}
+
+hr{
+	position: relative;
+	width: 92%;
+	left: 3.5%;
+}
+
