@@ -21,16 +21,24 @@ ul {
 	gap: 25px;
 }
 
+a {
+	text-decoration: none;
+}
+
 li {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	color: white;
 	gap: 5px;
+	padding: 14px 0px;
+	cursor: pointer;
 }
 
 .mi {
 	color: white;
+	font-size: 16px;
+	font-weight: 700;
 }
 
 .text {
@@ -59,13 +67,14 @@ li {
 }
 
 .dirt {
-	z-index: 1;
+	z-index: 2;
 	position: absolute;
-	right: 10%;
+	right: 7%;
 	top: 20%;
+	width: 100%;
 }
 
-.rectangle1{
+.rectangle1 {
 	z-index: 2;
 	position: absolute;
 	top: 30%;
@@ -74,50 +83,68 @@ li {
 	width: 78%;
 }
 
-.one{
+.one {
 	font-size: 48px;
 	font-weight: 300;
 	padding: 20px 37px;
 }
 
-.rectangle2{
+.rectangle2 {
 	position: relative;
 	left: 3.5%;
-	background-color: #F5C2CD;
-	border-left: solid #BC5C70 5px;
+	background-color: #f5c2cd;
+	border-left: solid #bc5c70 5px;
 	display: flex;
 	justify-content: start;
 	align-items: center;
 	width: 90%;
 }
 
-b{
+b {
 	font-size: 16px;
 	font-weight: 600;
 }
 
-.para{
-	padding:0px 12px;
+.para {
+	display: flex;
+	flex-direction: column;
+	text-align: start;
+	padding: 0px 12px;
+	width: 90%;
 }
 
-.first-card{
+.first-card {
 	display: flex;
 	text-align: start;
 	padding: 25px 40px;
 	font-size: 16px;
 	width: 96%;
-	
 }
 
-.entities{
+.entities {
 	font-size: 22px;
 	font-weight: 500;
 	padding: 10px 40px;
 }
 
-hr{
+hr {
 	position: relative;
 	width: 92%;
 	left: 3.5%;
 }
 
+.monst {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.class {
+	text-align: start;
+	width: 99%;
+	padding: 0px 40px;
+}
+
+.search {
+
+}

@@ -88,22 +88,24 @@
 					</p>
 					<img src="./assets/village.svg" alt="" />
 				</div>
-				<h3 class="entities">List of entities</h3>
-				<hr />
-				<p>
-					Entities are classifie by their nature from the player's perspective.
-					You can search for one or multiples entities by their name using the
-					search bar or simply by filling appropriate filters (type, health,
-					armor, damage, etc..)
-				</p>
-
+				<div class="monst">
+					<h3 class="entities">List of entities</h3>
+					<hr />
+					<p class="class">
+						Entities are classifie by their nature from the player's
+						perspective. You can search for one or multiples entities by their
+						name using the search bar or simply by filling appropriate filters
+						(type, health, armor, damage, etc..)
+					</p>
+				</div>
 				<div style="position: relative">
 					<img
+						class="search"
 						src="./assets/search.svg"
 						style="
 							position: absolute;
 							top: 50%;
-							left: 8px;
+							left: 17%;
 							transform: translateY(-50%);
 							width: 20px;
 						"
@@ -111,7 +113,18 @@
 					<input
 						type="text"
 						placeholder="search.."
-						style="padding-left: 32px"
+						style="
+							display: flex;
+							justify-content: center;
+                            text-align: start;
+							align-items: center;
+							padding-left: 50%;
+							border-radius: 10px;
+							border: none;
+							height: 2rem;
+                            margin-left: 15%;
+                            margin-top: 2%;
+						"
 					/>
 				</div>
 				<div class="rectangle3">
