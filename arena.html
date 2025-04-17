@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>arena</title>
+    <link rel="stylesheet" href="arena.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="links-div">
+          <a href="./index.html"
+            ><img src="./assets/logo1.svg" class="logo-img" alt="logo"
+          /></a>
+          <h2>Minecraft wiki</h2>
+          <ul>
+            <li>
+              <img
+                src="./assets/compass.svg"
+                class="link-img"
+                alt="explore-logo"
+              /><a href="./index.html" class="nav-link">EXPLORE</a>
+            </li>
+            <li>
+              <img
+                src="./assets/sword-cross.svg"
+                class="link-img"
+                alt="arena-logo"
+              /><a href="./arena.html" class="nav-link">ARENA</a>
+            </li>
+            <li>
+              <img
+                src="./assets/rules.svg"
+                class="link-img"
+                alt="rules-logo"
+              /><a href="./rules.html" class="nav-link">RULES</a>
+            </li>
+          </ul>
+        </div>
+        <input type="search" name="" id="" />
+      </nav>
+      <div class="sky"></div>
+      <div class="grass"></div>
+    </header>
+    <main>
+      <section>
+        <div>
+          <h1>Arena</h1>
+          <p class="arena-state"></p>
+        </div>
+        <p>Choose an entity to spawn inside the Arena.</p>
+        <div class="spawn-selections-div">
+          <div>
+            <p>Entity</p>
+            <select name="entity" id="">
+              <option value="">choose</option>
+            </select>
+          </div>
+          <div>
+            <p>X Coordinate</p>
+            <select name="xcoord" id="">
+              <option value="">255.2</option>
+            </select>
+          </div>
+          <div>
+            <p>Z Coordinate</p>
+            <select name="zcoord" id="">
+              <option value="">126.7</option>
+            </select>
+          </div>
+        </div>
+        <button>SPAWN</button>
+        <h3>Arena entities</h3>
+        <hr />
+        <p>This list describe all entities registered inside the Arena.</p>
+        <h3>Arena map</h3>
+        <hr />
+      </section>
+    </main>
+  </body>
+</html>
