@@ -102,7 +102,7 @@ main {
 }
 
 section {
-  background-color: white;
+  background-color: #e6eff4;
   padding: 30px 26px 26px 30px;
   border-radius: 4px;
   width: 80%;
@@ -116,8 +116,87 @@ h1 {
   color: #3a3a3a;
 }
 .spawn-selections-div {
+  margin-top: 15px;
+  margin-bottom: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.arena {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.arena-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 50px;
+  height: 20px;
+  color: white;
+}
+
+p {
+  color: #3a3a3a;
+}
+h4 {
+  color: #3a3a3a;
+  font-size: 0.875rem;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.375rem;
+  color: #3a3a3a;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+select {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  height: 25px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #3a3a3a;
+}
+option {
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #3a3a3a;
+}
+input {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  height: 25px;
+}
+input::placeholder {
+  color: #dbdbdb;
+}
+.spawn {
+  background-color: #4f8c69;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 45px;
+  padding: 8px 12px 8px 12px;
+  border: none;
+  border-radius: 99px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.375rem;
+}
+caption {
+  color: #3a3a3a;
+}
+
+th {
+  color: #3a3a3a;
+  font-weight: 400;
 }

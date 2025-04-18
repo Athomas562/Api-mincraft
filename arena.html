@@ -45,35 +45,44 @@
     </header>
     <main>
       <section>
-        <div>
+        <div class="arena">
           <h1>Arena</h1>
-          <p class="arena-state"></p>
+          <p class="arena-state">???</p>
         </div>
         <p>Choose an entity to spawn inside the Arena.</p>
         <div class="spawn-selections-div">
           <div>
-            <p>Entity</p>
+            <h4>Entity</h4>
             <select name="entity" id="">
               <option value="">choose</option>
             </select>
           </div>
           <div>
-            <p>X Coordinate</p>
-            <select name="xcoord" id="">
-              <option value="">255.2</option>
-            </select>
+            <h4>X Coordinate</h4>
+            <input type="number" placeholder="255.2" name="" id="" />
           </div>
           <div>
-            <p>Z Coordinate</p>
-            <select name="zcoord" id="">
-              <option value="">126.7</option>
-            </select>
+            <h4>Z Coordinate</h4>
+            <input type="number" placeholder="126.7" name="" id="" />
           </div>
         </div>
-        <button>SPAWN</button>
+        <button class="spawn">SPAWN</button>
         <h3>Arena entities</h3>
         <hr />
-        <p>This list describe all entities registered inside the Arena.</p>
+        <table>
+          <caption>
+            This list describe all entities registered inside the Arena.
+          </caption>
+          <thead>
+            <th>Entity</th>
+            <th>Name</th>
+            <th>X Coordinate</th>
+            <th>Y Coordinate</th>
+            <th>Strength</th>
+            <th>del</th>
+          </thead>
+          <tbody></tbody>
+        </table>
         <h3>Arena map</h3>
         <hr />
       </section>
