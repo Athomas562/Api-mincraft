@@ -30,6 +30,7 @@
 							</li></a
 						>
 					</ul>
+
 					<div class="ser" style="position: relative">
 						<img
 							src="./assets/search.svg"
@@ -99,17 +100,9 @@
 					</p>
 				</div>
 				<div class="search-container">
-					<img
-						class="search"
-						src="./assets/search.svg"
-						style="
-							position: absolute;
-							top: 50%;
-							left: 17%;
-							transform: translateY(-50%);
-							width: 20px;
-						"
-					/>
+					<span class="search-icon"
+						><img src="./assets/search.svg" alt=""
+					/></span>
 					<input type="text" placeholder="search.." />
 				</div>
 
@@ -134,20 +127,27 @@
 					</div>
 					<div class="card3">
 						<p>Health</p>
-						<input type="text" placeholder="18" />
+						<input type="number" min="0" placeholder="18" />
 					</div>
 					<div class="card4">
 						<p>Armor</p>
-						<input type="text" placeholder="12" />
+						<input type="number" min="0" placeholder="12" />
 					</div>
 					<div class="card5">
 						<p>Damage</p>
-						<input type="text" placeholder="2" />
+						<input type="number" min="0" placeholder="2" />
 					</div>
 				</div>
-				<button>SEARCH</button>
+				<div class="tt">
+					<button class="btn">SEARCH</button>
+				</div>
 				<hr />
+				<div class="not">
+					<h2>No entity found</h2>
+					<img class="ton" src="./assets/head.svg" alt="" />
+				</div>
 			</div>
 		</main>
+		<script src="./script.js"></script>
 	</body>
 </html>
